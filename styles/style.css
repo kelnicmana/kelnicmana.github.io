@@ -30,9 +30,18 @@ h4 {
 table {
     font-size: 30px;
     margin: auto;
-    color: magenta;
+    color: limegreen;
     padding: 10px;
     letter-spacing: 2px;
     width: 800px;
     font-family: sans-serif;
+}
+
+th {
+    color: black;
+    font-style: italic;
+}
+
+tr, td {
+    color: magenta;
 }
