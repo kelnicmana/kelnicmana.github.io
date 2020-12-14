@@ -54,6 +54,12 @@ th {
 tr, td, th {
     color: black;
 }
+#kidcontact {
+  color: white;
+}
+input {
+  text-align: center;
+}
 footer {
     color: white;
     font-style: italic;
