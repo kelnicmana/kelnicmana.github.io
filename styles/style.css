@@ -14,7 +14,7 @@ a:link {
   }
 
 p {
-    background-color: rgba(240, 240, 240, 0.86);
+    background-color: rgba(230, 230, 230, 1);
     color: black;
     width: 780px;
     border: 10px solid limegreen;
@@ -27,7 +27,7 @@ p {
   }
 
 h1 {
-    background-color: rgba(240, 240, 240, 0.86);
+    background-color: rgba(230, 230, 230, 1);
     border: 10px solid limegreen;
     border-radius: 20px;
     color: black;
@@ -50,15 +50,15 @@ h4 {
 }
 
 h2, h4 {
-    color: rgba(240, 240, 240, 0.86);
+    color: rgba(230, 230, 230, 1);
     border-radius: 10px;
 }
 
 h3 {
-    background-color: rgba(240, 240, 240, 0.86);
+    background-color: rgba(230, 230, 230, 1);
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
-    border: 5px solid magenta;
+    border: 5px solid black;
     width: 400px;
     margin: auto;
     border-radius: 10px;
@@ -90,6 +90,34 @@ tr, td, th {
     width: 450px;
     margin: auto;
     box-shadow: -20px -20px magenta;
+}
+
+#navbar {
+  background-color: magenta;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+nav ul {
+  margin: 0px;
+  padding: 18px 0px 18px 0px;
+}
+nav li {
+  background-color: limegreen;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  display: inline;
+  margin-right: 20px;
+}
+
+.aboutmelinks:hover {
+  background-color: magenta;
+  box-shadow: 20px 20px limegreen;
 }
 
 #acnh {
