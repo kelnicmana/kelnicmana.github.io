@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: black;
+    background-color: rgb(23, 23, 23);
 }
 
 a:link {
@@ -17,7 +17,7 @@ p {
     background-color: rgba(230, 230, 230, 1);
     color: black;
     width: 780px;
-    border: 10px solid limegreen;
+    border: 5px solid cyan;
     border-radius: 20px;
     padding: 5px;
     font-style: italic;
@@ -28,7 +28,7 @@ p {
 
 h1 {
     background-color: rgba(230, 230, 230, 1);
-    border: 10px solid limegreen;
+    border: 10px double black;
     border-radius: 20px;
     color: black;
     font-family: sans-serif;
@@ -36,9 +36,11 @@ h1 {
     letter-spacing: 4px;
     text-shadow: 4px 2px magenta;
 }
-
+h1:hover {
+    text-shadow: 4px 2px cyan;
+}
 h2 {
-    border: 5px solid limegreen;
+    border: 5px solid cyan;
     font-size: 55px;
     font-family: 'Lobster', cursive;
     padding: 10px 10px;
@@ -62,10 +64,11 @@ h3 {
     width: 400px;
     margin: auto;
     border-radius: 10px;
+    padding-bottom: 4px;
 }
 
 table {
-    background-color: limegreen;
+    background-color: cyan;
     font-size: 30px;
     margin: auto;
     color: magenta;
@@ -84,7 +87,7 @@ tr, td, th {
 }
 
 .tapme {
-    background-color: limegreen;
+    background-color: cyan;
     border-radius: 15px;
     padding: 30px 10px 0px 10px;
     width: 450px;
@@ -94,7 +97,7 @@ tr, td, th {
 
 .tapme:hover {
     background-color: magenta;
-    box-shadow: 20px 20px limegreen;
+    box-shadow: 20px 20px cyan;
   }
 
 #navbar {
@@ -103,14 +106,14 @@ tr, td, th {
   top: 0px;
   left: 0px;
   width: 100%;
-  border-bottom: 5px solid black;
+  border-bottom: 5px outset cyan;
 }
 nav ul {
   margin: 0px;
   padding: 18px 0px 18px 0px;
 }
 nav li {
-  background-color: limegreen;
+  background-color: cyan;
   border: 3px solid black;
   border-radius: 20px;
   font-family: sans-serif;
@@ -127,12 +130,14 @@ nav li {
 }
 
 #icons {
+    background-color: cyan;
     border-radius: 20px;
     width: 200px;
     height:110px;
     box-shadow: 20px 20px;
-}
+    }
 
+/* start of about.html css */
 #aboutme {
     background-color: rgba(230, 230, 230, 1);
     color: black;
@@ -154,6 +159,7 @@ nav li {
     padding: 0px 100px 50px 100px;
     border-radius: 20px;
 }
+/* end of about.html css */
 
 footer {
     color: white;
