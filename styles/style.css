@@ -1,7 +1,6 @@
 body {
   text-align: center;
-  background-color: rgb(23, 23, 23);
-  background-image: linear-gradient(to bottom, black, white, black);
+  background-image: linear-gradient(to bottom, black, gray, gray, black);
 }
 
 a:link {
@@ -17,12 +16,13 @@ a:visited {
 p {
   background-color: rgba(230, 230, 230, 1);
   color: black;
-  width: 780px;
+  width: 700px;
   border: 5px solid cyan;
   border-radius: 20px;
   padding: 5px;
-  font-style: italic;
+  font-style: ;
   font-size: 30px;
+  font-family: monospace;
   margin: auto;
   box-shadow: 20px 20px magenta;
 }
@@ -99,7 +99,7 @@ th {
   width: 450px;
   margin: auto;
   box-shadow: -20px -20px magenta;
-  background-image: linear-gradient(to bottom right, white, black);
+  background-image: linear-gradient(to bottom right, cyan, magenta);
 }
 
 .tapme:hover {
@@ -119,15 +119,19 @@ nav ul {
   padding: 3px;
 }
 nav li {
-  background-color: cyan;
+  background-color: rgba(0, 255, 255, 0.973);
   border: 3px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   font-family: sans-serif;
   font-weight: bold;
   padding: 10px;
   display: inline-block;
   width: 90px;
   margin-right: 20px;
+}
+
+nav li:hover {
+  background-image: linear-gradient(to bottom right, magenta, cyan);
 }
 
 #acnh {
