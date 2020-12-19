@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: rgb(23, 23, 23);
+  background-image: linear-gradient(to bottom, black, white, black);
 }
 
 a:link {
@@ -40,15 +41,17 @@ h1:hover {
   text-shadow: 4px 2px cyan;
 }
 h2 {
-  border: 5px solid cyan;
+  border: 10px double cyan;
   font-size: 55px;
   font-family: "Lobster", cursive;
   padding: 10px 10px;
+  text-shadow: 4px 2px black;
 }
 
 h4 {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
+  text-shadow: 3px 2px black;
 }
 
 h2,
@@ -90,16 +93,16 @@ th {
 }
 
 .tapme {
-  background-color: cyan;
+  border: 5px solid rgb(70, 68, 68);
   border-radius: 15px;
   padding: 30px 10px 0px 10px;
   width: 450px;
   margin: auto;
   box-shadow: -20px -20px magenta;
+  background-image: linear-gradient(to bottom right, white, black);
 }
 
 .tapme:hover {
-  background-color: magenta;
   box-shadow: 20px 20px cyan;
 }
 
@@ -113,7 +116,7 @@ th {
 }
 nav ul {
   margin: 0px;
-  padding: 18px 0px 18px 0px;
+  padding: 3px;
 }
 nav li {
   background-color: cyan;
@@ -122,7 +125,8 @@ nav li {
   font-family: sans-serif;
   font-weight: bold;
   padding: 10px;
-  display: inline;
+  display: inline-block;
+  width: 90px;
   margin-right: 20px;
 }
 
