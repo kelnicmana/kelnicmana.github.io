@@ -16,10 +16,10 @@ a:visited {
 p {
   background-color: rgba(230, 230, 230, 1);
   color: black;
-  width: 700px;
+  width: 780px;
   border: 5px solid cyan;
   border-radius: 20px;
-  padding: 5px;
+  padding: 20px;
   font-style: ;
   font-size: 30px;
   font-family: monospace;
