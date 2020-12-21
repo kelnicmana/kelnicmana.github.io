@@ -42,6 +42,7 @@ h1 {
   
 }
 h2 {
+  background-color: rgba(230, 230, 230, .2);
   border: 10px double #B7E401;
   font-size: 55px;
   font-family: "Lobster", cursive;
@@ -98,6 +99,7 @@ table {
 
 #navbar {
   background-color: #F53974;
+  background: linear-gradient(to right, #000000, #F53974, #F53974, #F53974, #000000);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -135,7 +137,7 @@ nav li:hover {
   border-radius: 20px;
   width: 200px;
   height: 110px;
-  box-shadow: 20px 20px;
+  box-shadow: 20px 20px 0px 0px;
 }
 
 /* start of about.html css */
@@ -149,7 +151,10 @@ nav li:hover {
 #aboutprofilepic {
   border: 5px dashed black;
   border-radius: 25%;
+  background: linear-gradient(to bottom right, #B7E401, #F53974);
   box-shadow: 15px 15px rgba(230, 230, 230, 1);
+  width: 600px;
+  height: 600px;
 }
 
 #aboutlist {
@@ -158,7 +163,8 @@ nav li:hover {
 }
 
 #aboutmetable {
-  padding: 0px 100px 50px 100px;
+  background: linear-gradient(to bottom, gray, black, black);
+  padding: 20px 100px 50px 100px;
   border-radius: 20px;
 }
 /* end of about.html css */
