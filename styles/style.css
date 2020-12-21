@@ -3,7 +3,7 @@ body {
   background: linear-gradient(to bottom, black, gray, gray, black),url(/images/background.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 120%;
   background-attachment: fixed;
 }
 
@@ -21,13 +21,13 @@ p {
   background-color: rgba(230, 230, 230, 1);
   color: black;
   width: 780px;
-  border: 5px solid rgb(125, 255, 0);
+  border: 5px solid #B7E401;
   border-radius: 20px;
   padding: 20px;
   font-size: 30px;
   font-family: monospace;
   margin: auto;
-  box-shadow: 20px 20px rgb(255, 50, 140);
+  box-shadow: 20px 20px #F53974;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
   
 }
 h2 {
-  border: 10px double rgb(125, 255, 0);
+  border: 10px double #B7E401;
   font-size: 55px;
   font-family: "Lobster", cursive;
   padding: 10px 10px;
@@ -73,10 +73,10 @@ h3 {
 }
 
 table {
-  background-color: rgb(125, 255, 0);
+  background-color: #B7E401;
   font-size: 30px;
   margin: auto;
-  color: rgb(255, 50, 140);
+  color: #F53974;
   padding: 10px;
   letter-spacing: 4px;
   width: 800px;
@@ -88,28 +88,28 @@ table {
   padding: 30px 10px 0px 10px;
   width: 450px;
   margin: auto;
-  box-shadow: -20px -20px rgba(255, 50, 140);
-  background: linear-gradient(to bottom right, rgb(125, 255, 0), rgb(255, 50, 140));
+  box-shadow: -20px -20px #F53974;
+  background: linear-gradient(to bottom right, #B7E401, #F53974);
 }
 
 .tapme:hover {
-  box-shadow: 20px 20px rgb(125, 255, 0);
+  box-shadow: 20px 20px #B7E401;
 }
 
 #navbar {
-  background-color: rgb(255, 50, 140);
+  background-color: #F53974;
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  border-bottom: 5px outset rgb(125, 255, 0);
+  border-bottom: 5px outset #B7E401;
 }
 nav ul {
   margin: 0px;
   padding: 3px;
 }
 nav li {
-  background-color: rgba(125, 255, 0, 0.973);
+  background-color: #B7E401;
   border: 3px solid black;
   border-radius: 10px;
   font-family: sans-serif;
@@ -121,7 +121,7 @@ nav li {
 }
 
 nav li:hover {
-  background: linear-gradient(to bottom right, rgb(255, 50, 140), rgb(125, 255, 0));
+  background: linear-gradient(to bottom right, #F53974, #B7E401);
 }
 
 #acnh {
@@ -131,7 +131,7 @@ nav li:hover {
 }
 
 #icons {
-  background-color: rgb(125, 255, 0);
+  background-color: #B7E401;
   border-radius: 20px;
   width: 200px;
   height: 110px;
@@ -141,9 +141,9 @@ nav li:hover {
 /* start of about.html css */
 #aboutme {
   background-color: rgba(230, 230, 230, 1);
-  color: black;
+  color: #F53974;
   border-radius: 20px;
-  box-shadow: 15px 15px rgb(255, 50, 140);
+  box-shadow: 15px 15px #F53974;
 }
 
 #aboutprofilepic {
