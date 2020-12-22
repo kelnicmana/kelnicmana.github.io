@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background: linear-gradient(to bottom, black, gray, gray, black),url(/images/background.jpg);
+  background: linear-gradient(to bottom, black, gray, gray, black),
+    url(/images/background.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: 100% 120%;
@@ -21,17 +22,17 @@ p {
   background-color: rgba(230, 230, 230, 1);
   color: black;
   width: 780px;
-  border: 5px solid #B7E401;
+  border: 5px solid #b7e401;
   border-radius: 20px;
   padding: 20px;
   font-size: 30px;
   font-family: monospace;
   margin: auto;
-  box-shadow: 20px 20px #F53974;
+  box-shadow: 20px 20px #f53974;
 }
 
 h1 {
-  background-color: rgba(230, 230, 230, .3);
+  background-color: rgba(230, 230, 230, 0.3);
   border: 10px double black;
   border-radius: 20px;
   color: white;
@@ -39,11 +40,11 @@ h1 {
   font-size: 80px;
   letter-spacing: 4px;
   text-shadow: 4px 2px black;
-  
 }
+
 h2 {
-  background-color: rgba(230, 230, 230, .2);
-  border: 10px double #B7E401;
+  background-color: rgba(230, 230, 230, 0.2);
+  border: 10px double #b7e401;
   font-size: 55px;
   font-family: "Lobster", cursive;
   padding: 10px 10px;
@@ -74,10 +75,10 @@ h3 {
 }
 
 table {
-  background-color: #B7E401;
+  background-color: #b7e401;
   font-size: 30px;
   margin: auto;
-  color: #F53974;
+  color: #f53974;
   padding: 10px;
   letter-spacing: 4px;
   width: 800px;
@@ -89,29 +90,36 @@ table {
   padding: 30px 10px 0px 10px;
   width: 450px;
   margin: auto;
-  box-shadow: -20px -20px #F53974;
-  background: linear-gradient(to bottom right, #B7E401, #F53974);
+  box-shadow: -20px -20px #f53974;
+  background: linear-gradient(to bottom right, #b7e401, #f53974);
 }
 
 .tapme:hover {
-  box-shadow: 20px 20px #B7E401;
+  box-shadow: 20px 20px #b7e401;
 }
 
 #navbar {
-  background-color: #F53974;
-  background: linear-gradient(to right, #000000, #F53974, #F53974, #F53974, #000000);
+  background-color: #f53974;
+  background: linear-gradient(
+    to right,
+    #000000,
+    #f53974,
+    #f53974,
+    #f53974,
+    #000000
+  );
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  border-bottom: 5px outset #B7E401;
+  border-bottom: 5px outset #b7e401;
 }
 nav ul {
   margin: 0px;
   padding: 3px;
 }
 nav li {
-  background-color: #B7E401;
+  background-color: #b7e401;
   border: 3px solid black;
   border-radius: 10px;
   font-family: sans-serif;
@@ -123,7 +131,7 @@ nav li {
 }
 
 nav li:hover {
-  background: linear-gradient(to bottom right, #F53974, #B7E401);
+  background: linear-gradient(to bottom right, #f53974, #b7e401);
 }
 
 #acnh {
@@ -133,25 +141,45 @@ nav li:hover {
 }
 
 #icons {
-  background-color: #B7E401;
+  background-color: #b7e401;
   border-radius: 20px;
   width: 200px;
   height: 110px;
   box-shadow: 20px 20px 0px 0px;
+  animation-name: iconani;
+  animation-duration: 2s;
+}
+
+@keyframes iconani {
+  0% {
+    background-color: #b7e401;
+  }
+
+  50% {
+    background-color: #ffa500;
+    scale: 120%;
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  100% {
+    background-color: #b7e401;
+    top: 0px;
+  }
 }
 
 /* start of about.html css */
 #aboutme {
   background-color: rgba(230, 230, 230, 1);
-  color: #F53974;
+  color: #f53974;
   border-radius: 20px;
-  box-shadow: 15px 15px #F53974;
+  box-shadow: 15px 15px #f53974;
 }
 
 #aboutprofilepic {
   border: 5px dashed black;
   border-radius: 25%;
-  background: linear-gradient(to bottom right, #B7E401, #F53974);
+  background: linear-gradient(to bottom right, #b7e401, #f53974);
   box-shadow: 15px 15px rgba(230, 230, 230, 1);
   width: 600px;
   height: 600px;
