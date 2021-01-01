@@ -1,11 +1,20 @@
-body {
-  text-align: center;
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 120%;
+  width: 100%;
+  z-index: -1;
   background: linear-gradient(to bottom, black, gray, gray, black),
     url(/images/background.jpg);
   background-blend-mode: multiply;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100% 120%;
-  background-attachment: fixed;
+}
+
+body {
+  text-align: center;
 }
 
 a:link {
@@ -113,11 +122,16 @@ table {
   left: 0px;
   width: 100%;
   border-bottom: 5px outset #b7e401;
+  z-index: 100;
 }
 nav ul {
   margin: 0px;
   padding: 3px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
+
 nav li {
   background-color: #b7e401;
   border: 3px solid black;
@@ -125,7 +139,6 @@ nav li {
   font-family: sans-serif;
   font-weight: bold;
   padding: 10px;
-  display: inline-block;
   width: 90px;
   margin-right: 20px;
 }
@@ -148,6 +161,11 @@ nav li:hover {
   box-shadow: 20px 20px 0px 0px;
   animation-name: iconani;
   animation-duration: 2s;
+}
+
+img.socialicons {
+  height: 58px; 
+  width: 58px;
 }
 
 @keyframes iconani {
