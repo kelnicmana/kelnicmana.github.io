@@ -1,9 +1,9 @@
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
-  height: 120%;
+  height: 100%;
   width: 100%;
   z-index: -1;
   background: linear-gradient(to bottom, black, gray, gray, black),
@@ -164,7 +164,7 @@ nav li:hover {
 }
 
 img.socialicons {
-  height: 58px; 
+  height: 58px;
   width: 58px;
 }
 
