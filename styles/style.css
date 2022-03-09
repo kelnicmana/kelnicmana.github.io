@@ -13,11 +13,13 @@ body * {
 
 body {
   background: var(--secondary);
+  color: var(--primary);
   font-family: "Alegreya", serif;
 }
 
 header {
   background: var(--primary);
+  color: var(--light);
 }
 
 h1,
@@ -31,11 +33,11 @@ h6 {
 
 h1 {
   color: var(--light);
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 3rem);
 }
 
 p {
-  color: var(--primary);
+  font-size: clamp(1.1rem, 2vw, 1.2rem);
 }
 
 .card {
@@ -61,7 +63,7 @@ footer {
 /*--- Structure ---*/
 
 header {
-  height: 20rem;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +84,6 @@ footer {
   text-align: center;
 }
 
-em {
-  font-weight: bold;
+strong {
+  font-weight: 700;
 }
