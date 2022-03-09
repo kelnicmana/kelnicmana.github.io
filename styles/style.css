@@ -9,14 +9,28 @@ body * {
   box-sizing: border-box;
 }
 
-/* Skin */
+/*--- Skin ---*/
 
 body {
   background: var(--secondary);
+  font-family: "Alegreya", serif;
+}
+
+header {
+  background: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Questrial", sans-serif;
 }
 
 h1 {
-  color: var(--dark);
+  color: var(--light);
   font-size: clamp(2.5rem, 5vw, 3.5rem);
 }
 
@@ -44,11 +58,17 @@ footer {
   color: var(--dark);
 }
 
-/* Structure */
+/*--- Structure ---*/
+
+header {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 h1 {
   text-align: center;
-  margin: 2rem;
 }
 
 .card {
@@ -60,4 +80,8 @@ h1 {
 
 footer {
   text-align: center;
+}
+
+em {
+  font-weight: bold;
 }
