@@ -5,8 +5,43 @@
   --dark: #142d4c;
 }
 
+/*--- Structure ---*/
+
 body * {
   box-sizing: border-box;
+}
+
+header {
+  height: clamp(22rem, 40vw, 34rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mission {
+  padding: 2rem;
+}
+
+.card {
+  width: 70vw;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.line {
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /*--- Skin ---*/
@@ -36,8 +71,16 @@ h1 {
   font-size: clamp(2rem, 5vw, 3rem);
 }
 
+h2 {
+  font-size: clamp(1.8rem, 4.8vw, 2.8rem);
+}
+
 p {
   font-size: clamp(1.1rem, 2vw, 1.2rem);
+}
+
+.mission {
+  background: var(--light);
 }
 
 .card {
@@ -56,34 +99,12 @@ p {
   padding: 0.7rem 1.2rem;
 }
 
+.line {
+  height: 0.01rem;
+  width: 8rem;
+  background: var(--primary);
+}
+
 footer {
   color: var(--dark);
-}
-
-/*--- Structure ---*/
-
-header {
-  height: 30rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  text-align: center;
-}
-
-.card {
-  width: 30rem;
-  height: 30rem;
-  margin: 2rem auto;
-  padding: 2rem;
-}
-
-footer {
-  text-align: center;
-}
-
-strong {
-  font-weight: 700;
 }
