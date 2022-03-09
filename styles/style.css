@@ -15,10 +15,6 @@ body {
   background: var(--secondary);
 }
 
-nav {
-  background: var(--primary);
-}
-
 h1 {
   color: var(--dark);
   font-size: clamp(2.5rem, 5vw, 3.5rem);
@@ -49,20 +45,6 @@ footer {
 }
 
 /* Structure */
-
-nav ul,
-nav li {
-  display: flex;
-}
-
-nav,
-nav ul {
-  width: 100vw;
-}
-
-nav ul {
-  justify-content: space-evenly;
-}
 
 h1 {
   text-align: center;
