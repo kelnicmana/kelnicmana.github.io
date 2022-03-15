@@ -42,10 +42,33 @@ h1 {
   border-radius: 2rem;
 }
 
+.contact {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards > div {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
 .card {
   width: 70vw;
-  margin: 2rem auto;
-  padding: 2rem;
+  margin: 2rem 0;
+  padding: 4vw;
+}
+
+.card > img {
+  width: 100%;
 }
 
 .line {
@@ -59,22 +82,6 @@ footer {
 
 strong {
   font-weight: 700;
-}
-
-@media only screen and (min-width: 750px) {
-  .mission {
-    flex-direction: row;
-    text-align: left;
-  }
-
-  .mission > div,
-  .mission > img {
-    width: 48%;
-  }
-
-  .line {
-    margin: 1rem 0;
-  }
 }
 
 /*--- Skin ---*/
@@ -96,7 +103,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.btn {
   font-family: "Questrial", sans-serif;
 }
 
@@ -117,11 +125,19 @@ h4 {
   font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
+h5 {
+  text-align: center;
+}
+
 p {
   font-size: clamp(1.1rem, 2vw, 1.2rem);
 }
 
 .mission {
+  background: var(--light);
+}
+
+.contact {
   background: var(--light);
 }
 
@@ -133,10 +149,11 @@ p {
 
 .btn {
   text-decoration: none;
-  color: var(--primary);
-  background: var(--light);
-  border: 0.1rem solid var(--dark);
-  border-radius: 2rem;
+  color: var(--dark);
+  display: inline-block;
+  background: var(--secondary);
+  border: 0.1rem solid var(--primary);
+  border-radius: 1rem;
   margin: 0.5rem;
   padding: 0.7rem 1.2rem;
 }
@@ -151,4 +168,35 @@ footer {
   background: var(--dark);
   background-image: linear-gradient(45deg, var(--primary) 20%, var(--dark));
   color: var(--light);
+}
+
+/*--- media queries ---*/
+
+@media only screen and (min-width: 750px) {
+  .cards {
+    flex-direction: row;
+    gap: 3vw;
+    padding: 3vw;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .card {
+    padding: 3vw;
+    width: auto;
+  }
+
+  .mission {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .mission > div,
+  .mission > img {
+    width: 48%;
+  }
+
+  .line {
+    margin: 1rem 0;
+  }
 }
